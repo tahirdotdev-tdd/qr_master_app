@@ -26,16 +26,6 @@ Easily remove individual or all history entries whenever you want.
 
 ---
 
-## 📷 Screenshots (Optional)
-
-
-> ```md
-> ![Home Screen](screenshots/home.png)
-> ![Scanner](screenshots/scanner.png)
-> ```
-
----
-
 ## 🛠️ Tech Stack Used
 
 - 💙 **Flutter** (Clean and responsive UI)
