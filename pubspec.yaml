@@ -1,0 +1,47 @@
+name: qr_scanner
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.8.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.6
+  mobile_scanner: ^7.0.1
+  permission_handler: ^12.0.1
+  url_launcher: ^6.3.1
+  image_picker: ^1.1.2
+  qr_code_tools: ^0.2.0
+  shared_preferences: ^2.5.3
+  flutter_launcher_icons: ^0.14.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/icons/
+
+# 👇 Native splash screen configuration
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/icons/logo_qr.png
+  branding: assets/icons/logo_qr.png
+  android: true
+  ios: true
+
+# 👇 App icon configuration
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icons/logo_qr.png"
